@@ -1,0 +1,31 @@
+{
+  "name": "@imhoff/eslint-config",
+  "version": "1.0.0",
+  "description": "My personal ESLint config.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwieeb/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "typescript"
+  ],
+  "author": "Dan Imhoff <dwieeb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwieeb/eslint-config/issues"
+  },
+  "homepage": "https://github.com/dwieeb/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  }
+}
