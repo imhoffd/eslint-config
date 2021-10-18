@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/dwieeb/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.1.0",
-    "@typescript-eslint/parser": "^4.1.0",
-    "eslint-config-prettier": "^8.0.0",
-    "eslint-plugin-import": "^2.22.0"
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2"
   },
   "peerDependencies": {
-    "eslint": ">=7"
+    "eslint": ">=8"
   }
 }
