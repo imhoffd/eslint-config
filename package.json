@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dwieeb/eslint-config.git"
+    "url": "git+https://github.com/imhoffd/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -16,9 +16,9 @@
   "author": "Dan Imhoff <dwieeb@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dwieeb/eslint-config/issues"
+    "url": "https://github.com/imhoffd/eslint-config/issues"
   },
-  "homepage": "https://github.com/dwieeb/eslint-config#readme",
+  "homepage": "https://github.com/imhoffd/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",

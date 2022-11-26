@@ -2,7 +2,7 @@
 
 My personal ESLint config.
 
-This is meant to be used alongside Prettier (with [`@imhoff/prettier-config`](https://github.com/dwieeb/prettier-config/)).
+This is meant to be used alongside Prettier (with [`@imhoff/prettier-config`](https://github.com/imhoffd/prettier-config/)).
 
 ## Usage
 
@@ -25,7 +25,7 @@ This is meant to be used alongside Prettier (with [`@imhoff/prettier-config`](ht
 
 ### With Prettier and `@imhoff/prettier-config`
 
-1. Set up Prettier and [`@imhoff/prettier-config`](https://github.com/dwieeb/prettier-config/).
+1. Set up Prettier and [`@imhoff/prettier-config`](https://github.com/imhoffd/prettier-config/).
 1. When using with Prettier and `@imhoff/prettier-config`, ESLint should run first. Set up your scripts in `package.json` like this:
 
     ```json
