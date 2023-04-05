@@ -9,16 +9,17 @@ module.exports = {
   ],
   rules: {
     // https://eslint.org/docs/rules/
-    'no-fallthrough': 'off',
     'no-constant-condition': 'off',
+    'no-fallthrough': 'off',
 
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
-    '@typescript-eslint/require-await': 'off',
-    '@typescript-eslint/no-this-alias': 'off',
-    '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-module-boundary-types': [
       'warn',
       { allowArgumentsExplicitlyTypedAsAny: true },
     ],
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-this-alias': 'off',
+    '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/unbound-method': 'off',
   },
 }
