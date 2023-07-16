@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['./recommended'],
-  plugins: ['import-alias'],
   rules: {
+    // ./recommended.js
     'import-alias/import-alias': [
       'error',
       {

@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['./index', 'plugin:import/typescript'],
-  plugins: ['import'],
+  plugins: ['import', 'import-alias'],
   rules: {
     // ./index.js
     '@typescript-eslint/explicit-module-boundary-types': [
@@ -22,11 +22,33 @@ module.exports = {
       {
         'alphabetize': { order: 'asc', caseInsensitive: false },
         'groups': [['builtin', 'external'], 'parent', ['sibling', 'index']],
+        'pathGroups': [
+          {
+            pattern: '@/**',
+            group: 'parent',
+            position: 'before',
+          },
+        ],
+        'pathGroupsExcludedImportTypes': ['builtin'],
         'newlines-between': 'always',
       },
     ],
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
     'import/no-mutable-exports': 'error',
+
+    // https://github.com/steelsojka/eslint-import-alias
+    'import-alias/import-alias': [
+      'error',
+      {
+        relativeDepth: 1,
+        aliases: [
+          {
+            alias: '@',
+            matcher: '^src',
+          },
+        ],
+      },
+    ],
   },
 }
