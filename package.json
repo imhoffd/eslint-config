@@ -20,17 +20,18 @@
   },
   "homepage": "https://github.com/imhoffd/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-canonical": "^4.4.4",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-import-alias": "^1.2.0"
   },
   "devDependencies": {
     "@imhoff/prettier-config": "^1.4.0",
-    "eslint": "^8.30.0",
+    "eslint": "^8.45.0",
     "prettier": "^2.8.1",
-    "typescript": "^4.9.4"
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
     "eslint": ">=8"
