@@ -38,4 +38,13 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ['./src/pages/**/*', './src/app/**/*'],
+      rules: {
+        'canonical/filename-match-exported': 'off',
+        'import/prefer-default-export': 'off',
+      },
+    },
+  ],
 }
