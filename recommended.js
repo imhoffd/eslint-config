@@ -23,6 +23,7 @@ module.exports = {
     ],
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
+    '@typescript-eslint/no-explicit-any': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import
     'import/first': 'error',
