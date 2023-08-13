@@ -14,7 +14,13 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/consistent-type-assertions': 'error',
-    '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        prefer: 'type-imports',
+        fixStyle: 'inline-type-imports',
+      },
+    ],
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
 
