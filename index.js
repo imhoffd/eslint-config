@@ -9,6 +9,7 @@ module.exports = {
   ],
   rules: {
     // https://eslint.org/docs/rules/
+    'curly': ['error', 'all'],
     'no-constant-condition': 'off',
     'no-fallthrough': 'off',
 
