@@ -3,8 +3,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/strict',
+    'plugin:@typescript-eslint/strict-type-checked',
     'prettier',
   ],
   rules: {

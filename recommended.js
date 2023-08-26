@@ -23,7 +23,6 @@ module.exports = {
     ],
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
-    '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
