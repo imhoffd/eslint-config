@@ -12,6 +12,10 @@ module.exports = {
             matcher: '^src',
           },
           {
+            alias: '@fp',
+            matcher: '^src/lib/fp',
+          },
+          {
             alias: '@public',
             matcher: '^public',
           },
@@ -28,7 +32,7 @@ module.exports = {
         'groups': [['builtin', 'external'], 'parent', ['sibling', 'index']],
         'pathGroups': [
           {
-            pattern: '@{src,public}/**',
+            pattern: '@{src,fp,public}/**',
             group: 'parent',
             position: 'before',
           },

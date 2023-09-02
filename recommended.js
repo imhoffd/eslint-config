@@ -71,6 +71,10 @@ module.exports = {
             alias: '@',
             matcher: '^src',
           },
+          {
+            alias: '@fp',
+            matcher: '^src/lib/fp',
+          },
         ],
       },
     ],
@@ -82,6 +86,8 @@ module.exports = {
         './**/*.{stories,spec,test,css}.{js,jsx,ts,tsx}',
         // config files
         '*.config.{js,ts}',
+        // fp-ts and fp-ts-std re-export facade
+        './src/lib/fp/**/*.ts',
       ],
       rules: {
         'canonical/filename-match-exported': 'off',
