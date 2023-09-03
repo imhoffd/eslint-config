@@ -16,6 +16,10 @@ module.exports = {
             matcher: '^src/lib/fp',
           },
           {
+            alias: '@ui',
+            matcher: '^src/components/ui',
+          },
+          {
             alias: '@public',
             matcher: '^public',
           },
@@ -32,7 +36,7 @@ module.exports = {
         'groups': [['builtin', 'external'], 'parent', ['sibling', 'index']],
         'pathGroups': [
           {
-            pattern: '@{src,fp,public}/**',
+            pattern: '@{src,fp,ui,public}/**',
             group: 'parent',
             position: 'before',
           },
