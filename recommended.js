@@ -95,6 +95,19 @@ module.exports = {
       },
     },
     {
+      files: [
+        // test and spec files
+        './**/*.{spec,test}.{js,jsx,ts,tsx}',
+        // test fixtures
+        './src/test/**/*',
+      ],
+      rules: {
+        // disable the empty pattern rule because vitest and playwright
+        // fixtures expect it to be used in test functions
+        'no-empty-pattern': 'off',
+      },
+    },
+    {
       files: 'index.{js,jsx,ts,tsx}',
       rules: {
         'import/prefer-default-export': 'off',
