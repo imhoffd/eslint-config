@@ -1,6 +1,6 @@
 {
   "name": "@imhoff/eslint-config",
-  "version": "2.11.0",
+  "version": "2.12.0",
   "description": "My personal ESLint config.",
   "main": "index.js",
   "repository": {
