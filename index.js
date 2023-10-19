@@ -20,6 +20,10 @@ module.exports = {
     ],
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-this-alias': 'off',
+    '@typescript-eslint/no-unnecessary-condition': [
+      'error',
+      { allowConstantLoopConditions: true },
+    ],
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/unbound-method': 'off',
