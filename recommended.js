@@ -78,6 +78,15 @@ module.exports = {
         ],
       },
     ],
+
+    // https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules
+    'tailwindcss/classnames-order': 'error',
+    'tailwindcss/enforces-negative-arbitrary-values': 'error',
+    'tailwindcss/enforces-shorthand': 'error',
+    'tailwindcss/migration-from-tailwind-2': 'error',
+    'tailwindcss/no-arbitrary-values': 'error',
+    'tailwindcss/no-contradicting-classname': 'error',
+    'tailwindcss/no-custom-classname': 'error',
   },
   overrides: [
     {

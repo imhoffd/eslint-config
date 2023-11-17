@@ -8,6 +8,11 @@ module.exports = {
     'prettier',
     'plugin:tailwindcss/recommended',
   ],
+  settings: {
+    tailwindcss: {
+      callees: ['clsx', 'cva', 'cn'],
+    },
+  },
   rules: {
     // https://eslint.org/docs/rules/
     'curly': ['error', 'all'],
