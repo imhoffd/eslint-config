@@ -28,5 +28,8 @@ module.exports = {
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/unbound-method': 'off',
+
+    // https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules
+    'tailwindcss/classnames-order': 'off',
   },
 }
