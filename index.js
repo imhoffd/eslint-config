@@ -6,6 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/strict',
     'plugin:@typescript-eslint/strict-type-checked',
     'prettier',
+    'plugin:tailwindcss/recommended',
   ],
   rules: {
     // https://eslint.org/docs/rules/
