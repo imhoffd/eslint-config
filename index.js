@@ -33,6 +33,7 @@ module.exports = {
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/unbound-method': 'off',
+    '@typescript-eslint/no-invalid-void-type': 'off',
 
     // https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules
     'tailwindcss/no-arbitrary-value': 'off',
