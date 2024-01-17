@@ -26,7 +26,8 @@
     "eslint-plugin-canonical": "^4.16.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-import-alias": "^1.2.0",
-    "eslint-plugin-tailwindcss": "^3.13.0"
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-unicorn": "^50.0.1"
   },
   "devDependencies": {
     "@imhoff/prettier-config": "^2.1.0",
