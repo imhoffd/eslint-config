@@ -49,6 +49,7 @@ module.exports = {
     'unicorn/no-nested-ternary': 'off',
     'unicorn/no-null': 'off',
     'unicorn/no-process-exit': 'off',
+    'unicorn/no-typeof-undefined': 'off',
     'unicorn/no-useless-undefined': 'off',
     'unicorn/prefer-code-point': 'off',
     'unicorn/prefer-event-target': 'off',
