@@ -46,6 +46,7 @@ module.exports = {
     'unicorn/no-array-callback-reference': 'warn',
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-document-cookie': 'off',
+    'unicorn/no-negated-condition': 'off',
     'unicorn/no-nested-ternary': 'off',
     'unicorn/no-null': 'off',
     'unicorn/no-process-exit': 'off',
