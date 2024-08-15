@@ -42,6 +42,7 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/tree/main/docs/rules
     'unicorn/catch-error-name': 'off',
+    'unicorn/consistent-function-scoping': 'off',
     'unicorn/filename-case': 'off',
     'unicorn/no-array-callback-reference': 'warn',
     'unicorn/no-array-reduce': 'off',
