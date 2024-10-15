@@ -44,7 +44,7 @@ module.exports = {
     'unicorn/catch-error-name': 'off',
     'unicorn/consistent-function-scoping': 'off',
     'unicorn/filename-case': 'off',
-    'unicorn/no-array-callback-reference': 'warn',
+    'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-document-cookie': 'off',
     'unicorn/no-negated-condition': 'off',
