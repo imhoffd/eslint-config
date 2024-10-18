@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['./index', 'plugin:import/typescript'],
-  plugins: ['import', 'import-alias', 'canonical'],
+  plugins: ['import', 'import-alias', 'canonical', 'plugin:oxlint/recommended'],
   rules: {
     // ./index.js
     '@typescript-eslint/explicit-module-boundary-types': [

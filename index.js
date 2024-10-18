@@ -8,6 +8,7 @@ module.exports = {
     'prettier',
     'plugin:tailwindcss/recommended',
     'plugin:unicorn/recommended',
+    'plugin:oxlint/recommended',
   ],
   settings: {
     tailwindcss: {
