@@ -39,7 +39,7 @@
   },
   "peerDependencies": {
     "eslint": ">=8",
-    "oxlint": "^0.9.10"
+    "oxlint": ">=0.9.10"
   },
   "prettier": "@imhoff/prettier-config"
 }
