@@ -91,7 +91,7 @@ module.exports = {
     {
       files: [
         // tests, stories, etc.
-        './**/*.{stories,spec,test,css}.{js,jsx,ts,tsx}',
+        './**/*.{stories,spec,test,testcases,css}.{js,jsx,ts,tsx}',
         // config files
         '*.config.{js,ts}',
         // fp-ts and fp-ts-std re-export facade
@@ -105,7 +105,7 @@ module.exports = {
     {
       files: [
         // test and spec files
-        './**/*.{spec,test}.{js,jsx,ts,tsx}',
+        './**/*.{spec,test,testcases}.{js,jsx,ts,tsx}',
         // test fixtures
         './src/test/**/*',
       ],
