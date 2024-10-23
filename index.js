@@ -37,6 +37,10 @@ module.exports = {
     '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/no-invalid-void-type': 'off',
     '@typescript-eslint/no-namespace': 'off',
+    '@typescript-eslint/no-empty-object-type': [
+      'error',
+      { allowInterfaces: 'with-single-extends' },
+    ],
 
     // https://github.com/francoismassart/eslint-plugin-tailwindcss/tree/master/docs/rules
     'tailwindcss/no-arbitrary-value': 'off',
