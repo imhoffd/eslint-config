@@ -30,6 +30,7 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
+    '@typescript-eslint/no-unnecessary-type-parameters': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import
     'import/first': 'error',
