@@ -32,6 +32,7 @@ module.exports = {
       'error',
       { allowConstantLoopConditions: true },
     ],
+    '@typescript-eslint/no-unnecessary-type-parameters': 'off',
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/unbound-method': 'off',

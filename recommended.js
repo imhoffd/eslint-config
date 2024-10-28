@@ -13,6 +13,7 @@ module.exports = {
 
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
     '@typescript-eslint/array-type': 'error',
+    '@typescript-eslint/consistent-indexed-object-style': 'error',
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/consistent-type-imports': [
       'error',
@@ -20,6 +21,10 @@ module.exports = {
         prefer: 'type-imports',
         fixStyle: 'inline-type-imports',
       },
+    ],
+    '@typescript-eslint/consistent-type-exports': [
+      'error',
+      { fixMixedExportsWithInlineTypeSpecifier: true },
     ],
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
@@ -30,7 +35,6 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
-    '@typescript-eslint/no-unnecessary-type-parameters': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import
     'import/first': 'error',
