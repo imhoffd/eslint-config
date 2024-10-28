@@ -81,9 +81,10 @@ module.exports = {
     'perfectionist/sort-jsx-props': [
       'error',
       {
-        groups: ['multiline', 'unknown', 'shorthand', 'callback'],
+        groups: ['multiline', 'unknown', 'shorthand', 'className', 'callback'],
         customGroups: {
           callback: '^on[A-Z]',
+          className: '^className$',
         },
         matcher: 'regex',
       },
