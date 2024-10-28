@@ -2,6 +2,9 @@ module.exports = {
   extends: ['./index', 'plugin:import/typescript', 'plugin:oxlint/recommended'],
   plugins: ['import', 'import-alias', 'canonical'],
   rules: {
+    // https://eslint.org/docs/rules/
+    'no-shadow': 'off',
+
     // ./index.js
     '@typescript-eslint/explicit-module-boundary-types': [
       'error',
@@ -35,6 +38,7 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
+    '@typescript-eslint/no-shadow': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import
