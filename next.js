@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['next/core-web-vitals', './recommended'],
+  plugins: ['react'],
   rules: {
     // https://github.com/jsx-eslint/eslint-plugin-react
     'react/react-in-jsx-scope': 'error',
