@@ -43,22 +43,6 @@ module.exports = {
 
     // https://github.com/benmosher/eslint-plugin-import
     'import/first': 'error',
-    'import/order': [
-      'error',
-      {
-        'alphabetize': { order: 'asc', caseInsensitive: false },
-        'groups': [['builtin', 'external'], 'parent', ['sibling', 'index']],
-        'pathGroups': [
-          {
-            pattern: '@/**',
-            group: 'parent',
-            position: 'before',
-          },
-        ],
-        'pathGroupsExcludedImportTypes': ['builtin'],
-        'newlines-between': 'always',
-      },
-    ],
     'import/prefer-default-export': ['error', { target: 'any' }],
     'import/newline-after-import': 'error',
     'import/no-anonymous-default-export': [

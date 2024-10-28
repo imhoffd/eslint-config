@@ -9,6 +9,7 @@ module.exports = {
     'plugin:tailwindcss/recommended',
     'plugin:unicorn/recommended',
     'plugin:oxlint/recommended',
+    'plugin:perfectionist/recommended-alphabetical-legacy',
   ],
   settings: {
     tailwindcss: {

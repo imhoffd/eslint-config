@@ -41,25 +41,6 @@ module.exports = {
         ],
       },
     ],
-    'import/order': [
-      'error',
-      {
-        'alphabetize': {
-          order: 'asc',
-          caseInsensitive: false,
-        },
-        'groups': [['builtin', 'external'], 'parent', ['sibling', 'index']],
-        'pathGroups': [
-          {
-            pattern: '@{src,fp,ui,public}/**',
-            group: 'parent',
-            position: 'before',
-          },
-        ],
-        'pathGroupsExcludedImportTypes': ['builtin'],
-        'newlines-between': 'always',
-      },
-    ],
   },
   overrides: [
     {
