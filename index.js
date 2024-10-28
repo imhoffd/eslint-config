@@ -32,10 +32,13 @@ module.exports = {
       'error',
       { allowConstantLoopConditions: true },
     ],
+    // Disabled until they add an option to ignore it in `switch` statements
+    '@typescript-eslint/no-unnecessary-condition': 'off',
     '@typescript-eslint/no-unnecessary-type-parameters': 'off',
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
     '@typescript-eslint/unbound-method': 'off',
+    '@typescript-eslint/no-deprecated': 'warn',
     '@typescript-eslint/no-invalid-void-type': 'off',
     '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/no-empty-object-type': [
