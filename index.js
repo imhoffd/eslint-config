@@ -72,10 +72,23 @@ module.exports = {
     'unicorn/prefer-global-this': 'off',
 
     // https://github.com/azat-io/eslint-plugin-perfectionist
+    'perfectionist/sort-exports': ['error', { partitionByNewLine: true }],
     'perfectionist/sort-imports': [
       'error',
       { internalPattern: ['~/**', '@{src,fp,public}/**'] },
     ],
-    'perfectionist/sort-exports': ['error', { partitionByNewLine: true }],
+    'perfectionist/sort-interfaces': ['error', { partitionByNewLine: true }],
+    'perfectionist/sort-jsx-props': [
+      'error',
+      {
+        groups: ['multiline', 'unknown', 'shorthand', 'callback'],
+        customGroups: {
+          callback: '^on[A-Z]',
+        },
+        matcher: 'regex',
+      },
+    ],
+    'perfectionist/sort-object-types': ['error', { partitionByNewLine: true }],
+    'perfectionist/sort-objects': ['error', { partitionByNewLine: true }],
   },
 }
