@@ -35,6 +35,7 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import
     'import/first': 'error',
