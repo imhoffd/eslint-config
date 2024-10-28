@@ -70,5 +70,8 @@ module.exports = {
     'unicorn/prefer-spread': 'off',
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/prefer-global-this': 'off',
+
+    // https://github.com/azat-io/eslint-plugin-perfectionist
+    'perfectionist/sort-exports': ['error', { partitionByNewLine: true }],
   },
 }
