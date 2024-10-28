@@ -66,6 +66,7 @@ module.exports = {
     'unicorn/prefer-event-target': 'off',
     'unicorn/prefer-export-from': 'off',
     'unicorn/prefer-top-level-await': 'off',
+    'unicorn/prefer-spread': 'off',
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/prefer-global-this': 'off',
   },
