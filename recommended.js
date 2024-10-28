@@ -62,12 +62,16 @@ module.exports = {
         relativeDepth: 1,
         aliases: [
           {
-            alias: '@',
+            alias: '@src',
             matcher: '^src',
           },
           {
             alias: '@fp',
             matcher: '^src/lib/fp',
+          },
+          {
+            alias: '@public',
+            matcher: '^public',
           },
         ],
       },

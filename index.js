@@ -74,7 +74,7 @@ module.exports = {
     // https://github.com/azat-io/eslint-plugin-perfectionist
     'perfectionist/sort-imports': [
       'error',
-      { internalPattern: ['~/**', '@*/**'] },
+      { internalPattern: ['~/**', '@{src,fp,public}/**'] },
     ],
     'perfectionist/sort-exports': ['error', { partitionByNewLine: true }],
   },

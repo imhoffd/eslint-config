@@ -15,32 +15,6 @@ module.exports = {
     'react/jsx-no-leaked-render': ['error', { validStrategies: ['ternary'] }],
     'react/forward-ref-uses-ref': 'error',
     'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
-
-    // ./recommended.js
-    'import-alias/import-alias': [
-      'error',
-      {
-        relativeDepth: 1,
-        aliases: [
-          {
-            alias: '@src',
-            matcher: '^src',
-          },
-          {
-            alias: '@fp',
-            matcher: '^src/lib/fp',
-          },
-          {
-            alias: '@ui',
-            matcher: '^src/components/ui',
-          },
-          {
-            alias: '@public',
-            matcher: '^public',
-          },
-        ],
-      },
-    ],
   },
   overrides: [
     {
