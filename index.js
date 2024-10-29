@@ -112,7 +112,6 @@ module.exports = {
           'shorthand',
           'className',
           'callback',
-          'attributes',
           'asChild',
         ],
         customGroups: {
@@ -121,7 +120,6 @@ module.exports = {
           className: '^className$',
           key: '^key$',
           ref: '^ref$',
-          attributes: '^(aria-|data-)',
         },
         matcher: 'regex',
       },
