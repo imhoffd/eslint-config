@@ -103,18 +103,22 @@ module.exports = {
       {
         groups: [
           'key',
+          'ref',
           'multiline',
           'unknown',
           'shorthand',
           'className',
           'callback',
+          'attributes',
           'asChild',
         ],
         customGroups: {
+          asChild: '^asChild$',
           callback: '^on[A-Z]',
           className: '^className$',
           key: '^key$',
-          asChild: '^asChild$',
+          ref: '^ref$',
+          attributes: '^(aria-|data-)',
         },
         matcher: 'regex',
       },
