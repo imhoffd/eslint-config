@@ -9,7 +9,6 @@ module.exports = {
     'plugin:tailwindcss/recommended',
     'plugin:unicorn/recommended',
     'plugin:oxlint/recommended',
-    'plugin:perfectionist/recommended-alphabetical-legacy',
   ],
   settings: {
     tailwindcss: {
@@ -72,24 +71,28 @@ module.exports = {
     'unicorn/prefer-global-this': 'off',
 
     // https://github.com/azat-io/eslint-plugin-perfectionist
-    'perfectionist/sort-exports': ['error', { partitionByNewLine: true }],
     'perfectionist/sort-imports': [
       'error',
       { internalPattern: ['~/**', '@{src,fp,public}/**'] },
     ],
-    'perfectionist/sort-interfaces': ['error', { partitionByNewLine: true }],
     'perfectionist/sort-jsx-props': [
       'error',
       {
-        groups: ['multiline', 'unknown', 'shorthand', 'className', 'callback'],
+        groups: [
+          'key',
+          'multiline',
+          'unknown',
+          'shorthand',
+          'className',
+          'callback',
+        ],
         customGroups: {
           callback: '^on[A-Z]',
           className: '^className$',
+          key: '^key$',
         },
         matcher: 'regex',
       },
     ],
-    'perfectionist/sort-object-types': ['error', { partitionByNewLine: true }],
-    'perfectionist/sort-objects': ['error', { partitionByNewLine: true }],
   },
 }
