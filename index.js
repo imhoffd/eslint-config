@@ -108,11 +108,13 @@ module.exports = {
           'shorthand',
           'className',
           'callback',
+          'asChild',
         ],
         customGroups: {
           callback: '^on[A-Z]',
           className: '^className$',
           key: '^key$',
+          asChild: '^asChild$',
         },
         matcher: 'regex',
       },
