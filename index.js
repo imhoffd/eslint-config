@@ -20,6 +20,7 @@ module.exports = {
     'curly': ['error', 'all'],
     'no-constant-condition': 'off',
     'no-fallthrough': 'off',
+    'sort-imports': 'off',
 
     // https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
     '@typescript-eslint/explicit-module-boundary-types': [
@@ -98,6 +99,8 @@ module.exports = {
         },
       },
     ],
+    'perfectionist/sort-named-imports': 'error',
+    'perfectionist/sort-named-exports': 'error',
     'perfectionist/sort-jsx-props': [
       'error',
       {
