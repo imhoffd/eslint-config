@@ -73,7 +73,30 @@ module.exports = {
     // https://github.com/azat-io/eslint-plugin-perfectionist
     'perfectionist/sort-imports': [
       'error',
-      { internalPattern: ['~/**', '@{src,fp,public}/**'] },
+      {
+        internalPattern: ['~/**', '@src/**'],
+        groups: [
+          'type',
+          ['builtin', 'external'],
+          'fp-type',
+          'fp',
+          'public',
+          'internal-type',
+          'internal',
+          ['parent-type', 'sibling-type', 'index-type'],
+          ['parent', 'sibling', 'index'],
+          'unknown',
+        ],
+        customGroups: {
+          value: {
+            fp: '@fp/**',
+            public: '@public/**',
+          },
+          type: {
+            'fp-type': '@fp/**',
+          },
+        },
+      },
     ],
     'perfectionist/sort-jsx-props': [
       'error',
