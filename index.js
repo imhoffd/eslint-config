@@ -121,7 +121,7 @@ module.exports = {
           className: '^className$',
           key: '^key$',
           ref: '^ref$',
-          attributes: '^(aria-|data-)',
+          attributes: '-',
         },
         matcher: 'regex',
       },
