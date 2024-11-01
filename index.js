@@ -99,8 +99,14 @@ module.exports = {
         },
       },
     ],
-    'perfectionist/sort-named-imports': ['error', { groupKind: 'types-first' }],
-    'perfectionist/sort-named-exports': ['error', { groupKind: 'types-first' }],
+    'perfectionist/sort-named-imports': [
+      'error',
+      { groupKind: 'types-first', ignoreCase: false },
+    ],
+    'perfectionist/sort-named-exports': [
+      'error',
+      { groupKind: 'types-first', ignoreCase: false },
+    ],
     'perfectionist/sort-jsx-props': [
       'error',
       {
@@ -112,6 +118,7 @@ module.exports = {
           key: '^key$',
           ref: '^ref$',
         },
+        ignoreCase: false,
         matcher: 'regex',
       },
     ],
