@@ -107,12 +107,12 @@ module.exports = {
         groups: [
           'key',
           'ref',
-          'multiline',
-          'unknown',
           'shorthand',
           'className',
-          'callback',
           'attributes',
+          'multiline',
+          'callback',
+          'unknown',
           'asChild',
         ],
         customGroups: {
