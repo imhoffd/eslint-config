@@ -66,10 +66,11 @@ module.exports = {
     'unicorn/prefer-code-point': 'off',
     'unicorn/prefer-event-target': 'off',
     'unicorn/prefer-export-from': 'off',
-    'unicorn/prefer-top-level-await': 'off',
-    'unicorn/prefer-spread': 'off',
-    'unicorn/prevent-abbreviations': 'off',
     'unicorn/prefer-global-this': 'off',
+    'unicorn/prefer-spread': 'off',
+    'unicorn/prefer-string-replace-all': 'off',
+    'unicorn/prefer-top-level-await': 'off',
+    'unicorn/prevent-abbreviations': 'off',
 
     // https://github.com/azat-io/eslint-plugin-perfectionist
     'perfectionist/sort-imports': [
